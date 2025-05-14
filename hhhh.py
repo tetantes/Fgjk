@@ -10,10 +10,10 @@ load_dotenv()
 # Bot configuration
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 ADMIN_ID = 6011460052
-CHANNEL = "@freearningstetantes"
+CHANNEL = "@freeearningstetantes"
 class BotData:
     def __init__(self):
-        self.required_channels = {"@freearningstetantes"}
+        self.required_channels = {"@freeearningstetantes"}
         self.users = {}
         self.referral_amount = 0.5  # STAR per referral
         self.min_withdrawal = 1  # Minimum STAR for withdrawal
