@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot configuration
-TELEGRAM_TOKEN = os.getenv("8067007627:AAEBtELxf7Okn0QI46zmboyz1pg0AZXkR-4")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 ADMIN_ID = 6011460052
 CHANNEL = "@freearningstetantes"
 class BotData:
