@@ -19,7 +19,7 @@ class BotData:
         self.min_withdrawal = 1  # Minimum STAR for withdrawal
         self.max_withdrawal = 10  # Maximum STAR for withdrawal
         self.withdrawal_open = True
-        self.withdrawal_channels = ["@freearningstetantes"]  # Default withdrawal channel
+        self.withdrawal_channels = ["@freeearningstetantes"]  # Default withdrawal channel
 
 # Initialize bot data
 bot_data = BotData()
